@@ -19,15 +19,10 @@ docker run  --network minha-bridge hello_docker_python
 
 
 -- Comandos mais utilizados
-docker ps -- listar todos os container
-docker images ls -- listar todas as images
-docker network ls 
-
-docker inspect id-container
-
--- limpar todos os contanier
-docker rm $(docker ps -a -q)
-
--- limpar todas as imagens
-docker rmi -f  $(docker images -aq)
+- docker ps -- listar todos os container
+- docker images ls -- listar todas as images
+- docker network ls 
+- docker inspect id-container
+- docker rm $(docker ps -a -q) -- limpar todos os contanier
+- docker rmi -f  $(docker images -aq) -- limpar todas as imagens
 
