@@ -12,7 +12,7 @@ Os arquivos ficam dentro de /var/lib/docker/volumes/meu-volume
 3) Baixar o container redis  
 docker pull redis
 
-4) Subir o redis(mapear o volume para uma pasta)
+4) Subir o redis(mapear o volume para uma pasta)  
 docker run -p 6379:6379 -v meu-volume:/app  --network minha-bridge --name container-redis -d redis
 
 5) Inserir um registro no redis  
