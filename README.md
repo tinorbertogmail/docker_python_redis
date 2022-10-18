@@ -1,6 +1,7 @@
 ## Projeto docker/ python /redis
 Repositório para código de uma aplicação python que roda dentro de um contanier python consultando um banco de dados redis  
-Objetivo do projeto: criar um código python que busca informações em um banco redis que estão dentro de um contaniner  
+Objetivo do projeto: entender como uma aplicação roda dentro de um contaniner acessando um banco de dados. Essa versão utiliza um dockfile para o build
+do projeto
 
 1) Criação de uma rede no docker:  
 docker network create --driver  bridge minha-bridge
