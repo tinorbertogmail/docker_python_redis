@@ -6,8 +6,8 @@ do projeto
 1) Criação de uma rede no docker:  
 docker network create --driver  bridge minha-bridge
 
-2) Criação do volume 
-docker volume create meu-volume 
+2) Criação do volume  
+docker volume create meu-volume   
 Os arquivos ficam dentro de /var/lib/docker/volumes/meu-volume
 
 3) Baixar o container redis  
